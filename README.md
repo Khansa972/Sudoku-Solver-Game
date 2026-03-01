@@ -9,20 +9,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Architecture](#-architecture)
-- [Getting Started](#-getting-started)
-- [How to Play](#-how-to-play)
-- [Class Descriptions](#-class-descriptions)
-- [Screenshots](#-screenshots)
-- [Technologies Used](#-technologies-used)
-- [Authors](#-authors)
-
----
 
 ## 🔍 Overview
 
@@ -64,19 +50,26 @@ This project is a complete **Sudoku Solver Game** built in Java with a Swing-bas
 ---
 
 ## 📁 Project Structure
-
 ```
-sudoku-solver/
+sudoku-solver-game/
 │
-├── SudokuGUI.java          # Main application window and game controller
-├── SudokuBoard.java        # Board state management and game logic
-├── SudokuSolver.java       # Backtracking solver and solution counter
-├── PuzzleGenerator.java    # Random puzzle generation by difficulty
-├── finalWindow.java        # Post-game performance analytics dashboard
+├── SudokuGUI.java              # Main application window and game controller
+├── SudokuBoard.java            # Board state management and game logic
+├── SudokuSolver.java           # Backtracking solver and solution counter
+├── PuzzleGenerator.java        # Random puzzle generation by difficulty
+├── finalWindow.java            # Post-game performance analytics dashboard
 │
-└── README.md
+├── README.md                   # Project documentation
+├── .gitignore                  # Ignore compiled class files
+├── LICENSE                     # MIT License
+│
+└── screenshots/
+    ├── main-board.png          # Main game board
+    ├── easy-puzzle.png         # Easy difficulty puzzle
+    ├── hard-puzzle.png         # Hard difficulty puzzle
+    ├── hint-system.png         # Hint cells highlighted
+    └── dashboard.png           # Post-game analytics dashboard
 ```
-
 ---
 
 ## 🏗️ Architecture
