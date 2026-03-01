@@ -1,0 +1,83 @@
+# ============================================
+#   Java Sudoku Solver Game - .gitignore
+# ============================================
+
+# Compiled class files
+*.class
+
+# Package / archive files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# ============================================
+# IDE - IntelliJ IDEA
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ============================================
+# IDE - Eclipse
+# ============================================
+.eclipse/
+.project
+.classpath
+.settings/
+*.launch
+bin/
+
+# ============================================
+# IDE - VS Code
+# ============================================
+.vscode/
+
+# ============================================
+# IDE - NetBeans
+# ============================================
+nbproject/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# ============================================
+# Build output
+# ============================================
+build/
+target/
+dist/
+
+# ============================================
+# OS generated files
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ============================================
+# Game generated files (user-specific)
+# ============================================
+Sudoku_Performance_Report*.txt
+Sudoku_Comparison_Data*.csv
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
