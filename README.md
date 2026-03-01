@@ -118,8 +118,8 @@ The project follows a clean **layered architecture**:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/sudoku-solver-game.git
-cd sudoku-solver-game
+git clone https://github.com/YOUR_USERNAME/Sudoku-Solver-Game.git
+cd Sudoku-Solver-Game
 
 # Compile all Java files
 javac *.java
@@ -226,34 +226,20 @@ Panels & Features:
 
 ---
 
-## 📸 Screenshots
-
-> Add your screenshots to the `screenshots/` folder and they will appear here.
-
-| Main Board | Easy Puzzle |
-|:----------:|:-----------:|
-| ![Main Board](screenshots/main-board.png) | ![Easy Puzzle](screenshots/easy-puzzle.png) |
-
-| Hard Puzzle | Performance Dashboard |
-|:-----------:|:--------------------:|
-| ![Hard Puzzle](screenshots/hard-puzzle.png) | ![Dashboard](screenshots/dashboard.png) |
-
----
-
 ## 🛠️ Technologies Used
 
 <div align="center">
 
-| Technology | Icon | Purpose |
-|------------|:----:|---------|
-| **Java SE 8+** | <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> | Core programming language |
-| **Java Swing** | <img src="https://img.shields.io/badge/Swing-GUI%20Framework-007396?style=flat-square&logo=java&logoColor=white"> | GUI components — JFrame, JPanel, JTextField, JButton |
-| **Java AWT** | <img src="https://img.shields.io/badge/AWT-2D%20Graphics-5382A1?style=flat-square&logo=java&logoColor=white"> | Custom charts — Graphics2D, Arc2D, BasicStroke |
-| **Java Timer** | <img src="https://img.shields.io/badge/Timer-Game%20Clock-f59e0b?style=flat-square&logo=clockify&logoColor=white"> | Live game timer implementation |
-| **Java I/O** | <img src="https://img.shields.io/badge/Java%20I%2FO-File%20Handling-10b981?style=flat-square&logo=files&logoColor=white"> | Report generation and CSV export |
-| **Java Collections** | <img src="https://img.shields.io/badge/Collections-Data%20Structures-8b5cf6?style=flat-square&logo=databricks&logoColor=white"> | Game history and list management |
-| **Git** | <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white"> | Source control |
-| **GitHub** | <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white"> | Code hosting |
+| Technology | Purpose |
+|------------ |---------|
+| **Java SE 8+** | Core programming language |
+| **Java Swing** |  GUI components — JFrame, JPanel, JTextField, JButton |
+| **Java AWT** | Custom charts — Graphics2D, Arc2D, BasicStroke |
+| **Java Timer** | Live game timer implementation |
+| **Java I/O** |  Report generation and CSV export |
+| **Java Collections** | Game history and list management |
+| **Git** |  Source control |
+| **GitHub** | Code hosting |
 
 </div>
 
