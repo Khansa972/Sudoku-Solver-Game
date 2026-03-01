@@ -70,11 +70,24 @@ sudoku-solver-game/
 ├── LICENSE                     # MIT License
 │
 └── screenshots/
-    ├── main-board.png          # Main game board
-    ├── easy-puzzle.png         # Easy difficulty puzzle
-    ├── hard-puzzle.png         # Hard difficulty puzzle
-    ├── hint-system.png         # Hint cells highlighted
-    └── dashboard.png           # Post-game analytics dashboard
+    ├── 01_game_board.png
+    ├── 02_easy_board.png
+    ├── 03_medium_board.png
+    ├── 04_hard_board.png
+    ├── 05_hint.png
+    ├── 06_mistake.png
+    ├── 07_solve_automatically.png
+    ├── 08_performance_dashboard.png
+    ├── 09_performance_visualization.png
+    ├── 10_additional_features.png
+    ├── 11_generate_report.png
+    ├── 12_compare_games_overview.png
+    ├── 13_compare_games_detailed.png
+    ├── 14_compare_games_stats.png
+    ├── 15_compare_games_charts.png
+    ├── 16_achievements.png
+    ├── 17_practice_mode.png
+    └── 18_share_results.png
 ```
 
 ---
@@ -264,10 +277,9 @@ During puzzle generation, `countSolutionsLimited(puzzle, 1)` is called after eac
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
-Developed as a **Software Construction & Development** course project.
-
+Khansa Bint-e-Zia
 ---
 
 ## 📄 License
