@@ -2,13 +2,18 @@
 
 > A fully-featured Java Sudoku game with intelligent puzzle generation, backtracking solver, hint system, and a rich performance analytics dashboard.
 
+<div align="center">
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Swing](https://img.shields.io/badge/Java%20Swing-GUI-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Course](https://img.shields.io/badge/Course-Software%20Construction%20%26%20Development-purple?style=for-the-badge)
+![Swing](https://img.shields.io/badge/Java%20Swing-GUI-007396?style=for-the-badge&logo=java&logoColor=white)
+![AWT](https://img.shields.io/badge/Java%20AWT-Graphics-5382A1?style=for-the-badge&logo=java&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+![Course](https://img.shields.io/badge/Software%20Construction%20%26%20Development-Course%20Project-8b5cf6?style=for-the-badge&logo=bookstack&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-0ea5e9?style=for-the-badge&logo=dell&logoColor=white)
+
+</div>
 
 ---
-
 
 ## 🔍 Overview
 
@@ -50,6 +55,7 @@ This project is a complete **Sudoku Solver Game** built in Java with a Swing-bas
 ---
 
 ## 📁 Project Structure
+
 ```
 sudoku-solver-game/
 │
@@ -70,6 +76,7 @@ sudoku-solver-game/
     ├── hint-system.png         # Hint cells highlighted
     └── dashboard.png           # Post-game analytics dashboard
 ```
+
 ---
 
 ## 🏗️ Architecture
@@ -111,8 +118,8 @@ The project follows a clean **layered architecture**:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/sudoku-solver.git
-cd sudoku-solver
+git clone https://github.com/YOUR_USERNAME/sudoku-solver-game.git
+cd sudoku-solver-game
 
 # Compile all Java files
 javac *.java
@@ -187,10 +194,10 @@ Creates random, valid Sudoku puzzles with guaranteed unique solutions.
 4. Stop when the target cell count for the chosen difficulty is reached
 
 | Difficulty | Cells Removed | Empty Cells |
-|------------|--------------|-------------|
-| Easy       | 25           | 25          |
-| Medium     | 45           | 45          |
-| Hard       | 57           | 57          |
+|------------|:------------:|:-----------:|
+| 🟢 Easy    | 25           | 25          |
+| 🟡 Medium  | 45           | 45          |
+| 🔴 Hard    | 57           | 57          |
 
 ---
 
@@ -219,16 +226,36 @@ Panels & Features:
 
 ---
 
+## 📸 Screenshots
+
+> Add your screenshots to the `screenshots/` folder and they will appear here.
+
+| Main Board | Easy Puzzle |
+|:----------:|:-----------:|
+| ![Main Board](screenshots/main-board.png) | ![Easy Puzzle](screenshots/easy-puzzle.png) |
+
+| Hard Puzzle | Performance Dashboard |
+|:-----------:|:--------------------:|
+| ![Hard Puzzle](screenshots/hard-puzzle.png) | ![Dashboard](screenshots/dashboard.png) |
+
+---
+
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Java SE 8+ | Core programming language |
-| Java Swing | GUI framework (JFrame, JPanel, JTextField, JButton, etc.) |
-| Java AWT | 2D graphics for custom charts (Graphics2D, Arc2D, BasicStroke) |
-| Java Timer | Game clock implementation |
-| Java I/O | Report generation and CSV export |
-| Java Collections | Game history management |
+<div align="center">
+
+| Technology | Icon | Purpose |
+|------------|:----:|---------|
+| **Java SE 8+** | <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> | Core programming language |
+| **Java Swing** | <img src="https://img.shields.io/badge/Swing-GUI%20Framework-007396?style=flat-square&logo=java&logoColor=white"> | GUI components — JFrame, JPanel, JTextField, JButton |
+| **Java AWT** | <img src="https://img.shields.io/badge/AWT-2D%20Graphics-5382A1?style=flat-square&logo=java&logoColor=white"> | Custom charts — Graphics2D, Arc2D, BasicStroke |
+| **Java Timer** | <img src="https://img.shields.io/badge/Timer-Game%20Clock-f59e0b?style=flat-square&logo=clockify&logoColor=white"> | Live game timer implementation |
+| **Java I/O** | <img src="https://img.shields.io/badge/Java%20I%2FO-File%20Handling-10b981?style=flat-square&logo=files&logoColor=white"> | Report generation and CSV export |
+| **Java Collections** | <img src="https://img.shields.io/badge/Collections-Data%20Structures-8b5cf6?style=flat-square&logo=databricks&logoColor=white"> | Game history and list management |
+| **Git** | <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git&logoColor=white"> | Source control |
+| **GitHub** | <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white"> | Code hosting |
+
+</div>
 
 ---
 
@@ -263,4 +290,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
+<div align="center">
+
 *Built with ☕ Java and a love for puzzles.*
+
+⭐ If you found this project helpful, please consider giving it a star!
+
+</div>
